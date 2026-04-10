@@ -1,0 +1,13 @@
+number = 10
+number = number + 10
+print("number = number + 10 -> " + str(number))
+number = number - 10
+print("number = number - 10 -> " + str(number))
+number = number * 10
+print("number = number * 10 -> " + str(number))
+number = number / 10
+print("number = number / 10 -> " + str(number))
+number = number // 10
+print("number = number // 10 -> " + str(number))
+number = number ** 10
+print("number = number ** 10 -> " + str(number))

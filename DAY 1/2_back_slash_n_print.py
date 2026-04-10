@@ -1,0 +1,1 @@
+print("Hello Gowtham\nHello Mahima\nHello All!")

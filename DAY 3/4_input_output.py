@@ -1,0 +1,6 @@
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+college = input("Enter your college name: ")
+print("Your name is: " + name)
+print("Your age is : " + age)
+print("Your college name is: " + college)

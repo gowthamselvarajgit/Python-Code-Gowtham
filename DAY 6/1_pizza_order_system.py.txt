@@ -1,0 +1,35 @@
+print("Welcome to Python Pizza Deleveries!")
+size = input("What size of pizza do you want? S, M or L: ")
+bill = 0
+
+if size == "S":
+    bill = 15
+elif size == "M":
+    bill  = 20
+elif size == "L":
+    bill = 25
+else:
+    print("Invalid size selected.")
+    
+print(f"Cost of your Wonderfull Python Pizza is ${bill}")
+print("-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-")
+    
+pepperoni = input("Do you want pepperoni on Pizza? Y or N: ")
+if pepperoni == "Y":
+    if size == "S":
+        bill = bill + 2
+    else:
+        bill = bill + 3
+    print(f"Now your Cost of the Python Pizza with Amazing Pepperoni is ${bill}")
+print("-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-")
+    
+extra_cheese = input("Do you want extra cheese on Pizza? Y or N: ")
+if extra_cheese == "Y":
+    bill = bill + 1
+    print(f"Now your Cost of the Python Pizza with Extra Cheese is ${bill}")
+print("-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-")
+    
+
+print(f"Cost of your pizza is: ${bill}")
+    
+    
